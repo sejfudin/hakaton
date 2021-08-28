@@ -1,1 +1,61 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  background-color: white;
+  padding-top: 81px;
+}
 
+header, footer {
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  background-color: white;
+  color: green;
+  z-index: 999;
+}
+
+header {
+  top: 0;
+  padding: 5px;
+  border-bottom: solid green 2px;
+  font-size: 27px;
+}
+
+footer {
+  bottom: 0;
+  height: 18px;
+  font-size: 10px;
+  padding-top: 5px;
+  border-top: solid black 1px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    margin-top: 24px;
+    float: right;
+}
+
+.navigator {
+    margin-top: 24px;
+    margin-right: 24px;
+}
+
+.container {
+    width: 96%;
+    padding: 12px;
+    text-align: center;
+}
+
+.input-form {
+    width: 50%;
+    margin: 24px auto;
+}
+
+.ett {
+   margin-top: 9px;
+    margin-left: 0px;
+    font-size: 30px;
+}
